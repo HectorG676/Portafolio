@@ -8,17 +8,29 @@ import Layout from "../layouts/Layout.astro";
 
 <Layout title="">
   <main>
-    <section class="w-full lg:w-[740px] mx-auto py-44">
-      <h1 class="text-white text-5xl font-bold justify-center flex-row">
-        Hola, mi nombre es Héctor Miguel Guerrero <div
-          class="flex justify-center items-center"
+    <section class="w-full mx-auto lg:w-[740px] py-44">
+      <img
+        class="rounded-full w-16 h-16 mb-5"
+        src="../public/mio.jpg"
+        alt="Inserte Logo"
+      />
+      <h1 class="text-white text-5xl font-bold flex flex-row gap-x-4 pb-10">
+        Hola, soy Héctor<a
+          href="https://www.linkedin.com/in/hmgs676"
+          target="_blank"
+          rel="noopener"
+          class="flex justify-center items-center gap-x-4"
         >
           <Badge> Disponible para Trabajar </Badge>
-        </div>
+        </a>
       </h1>
-      <h2>
-        2 años de experiencia. Desarrollador web y creador de contenido para
-        redes. De Fresnillo, Mexico. Me especializo en el ambito web.
+      <h2 class="text-2xl text-wrap">
+        <span class="text-green-300">2 años de experiencia.</span><span
+          class="text-gray-300 opacity-85"
+        >
+          Desarrollador web y creador de contenido para redes. De Fresnillo
+          Zacatecas, Mexico. Me especializo en el ambito web.</span
+        >
       </h2>
 
       <ul></ul>
